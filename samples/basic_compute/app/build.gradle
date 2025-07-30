@@ -5,8 +5,8 @@ parent = new File(parent).parent
 def sample = new File(parent).getName()
 
 android {
+    namespace = 'com.arm.vulkansdk.basiccompute'
     compileSdkVersion 23
-    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 21

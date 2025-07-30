@@ -1,0 +1,329 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "framework",
+					"jsonFile" : "directory-framework-Debug-beda9666560c34841701.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "framework",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "platform",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-platform-Debug-c3ab5af9276018affe88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "platform",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "platform/android",
+					"jsonFile" : "directory-platform.android-Debug-07cbcc7313b781059ac5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "platform/android",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "stub",
+					"jsonFile" : "directory-stub-Debug-d61969a05302daaf2480.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "stub",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "samples",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					],
+					"jsonFile" : "directory-samples-Debug-026e8de27727d40e5852.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "samples"
+				},
+				{
+					"build" : "samples/hellotriangle",
+					"jsonFile" : "directory-samples.hellotriangle-Debug-8f307b678b2ac5040b63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "samples/hellotriangle"
+				},
+				{
+					"build" : "samples/rotating_texture",
+					"jsonFile" : "directory-samples.rotating_texture-Debug-bf5a860bd44ae5f859ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "samples/rotating_texture"
+				},
+				{
+					"build" : "samples/basic_compute",
+					"jsonFile" : "directory-samples.basic_compute-Debug-deebfc29db7daeb2cffa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "samples/basic_compute",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "samples/multithreading",
+					"jsonFile" : "directory-samples.multithreading-Debug-564079d75b1c1193ec4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "samples/multithreading"
+				},
+				{
+					"build" : "samples/multisampling",
+					"jsonFile" : "directory-samples.multisampling-Debug-cfaef6d128f274b81fec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "samples/multisampling"
+				},
+				{
+					"build" : "samples/spinning_cube",
+					"jsonFile" : "directory-samples.spinning_cube-Debug-fe38bd1c56393b1993c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "samples/spinning_cube"
+				},
+				{
+					"build" : "samples/multipass",
+					"jsonFile" : "directory-samples.multipass-Debug-dc02ef106d5400aa6e7c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "samples/multipass"
+				},
+				{
+					"build" : "samples/astc",
+					"jsonFile" : "directory-samples.astc-Debug-18917097a82b8928473e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "samples/astc"
+				},
+				{
+					"build" : "samples/mipmapping",
+					"jsonFile" : "directory-samples.mipmapping-Debug-d0b2abbd28f598112adc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "samples/mipmapping"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					],
+					"name" : "vulkan-sdk",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "basic_compute::@fb055d3086e43f899487",
+					"jsonFile" : "target-basic_compute-Debug-b646d7bbf2a883cdce75.json",
+					"name" : "basic_compute",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "framework::@217a96c3a62328a73ef4",
+					"jsonFile" : "target-framework-Debug-d6cb123ca74bca4e7995.json",
+					"name" : "framework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "platform::@06522778d3acbe1b37c9",
+					"jsonFile" : "target-platform-Debug-7773bbc475b8cdfc2b3f.json",
+					"name" : "platform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "platform-android::@9a0b80f63a94e9055ebd",
+					"jsonFile" : "target-platform-android-Debug-0096491d7a9e8ef1e3c2.json",
+					"name" : "platform-android",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "platform-asset-manager::@06522778d3acbe1b37c9",
+					"jsonFile" : "target-platform-asset-manager-Debug-00b688eda80dfef5627c.json",
+					"name" : "platform-asset-manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "platform-wsi::@06522778d3acbe1b37c9",
+					"jsonFile" : "target-platform-wsi-Debug-4e81efa7644285a995bd.json",
+					"name" : "platform-wsi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vulkan-sdk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vulkan-sdk-Debug-451ef00b1aef8ed02ab6.json",
+					"name" : "vulkan-sdk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "vulkan-stub::@31bfb7fa4c447f20d444",
+					"jsonFile" : "target-vulkan-stub-Debug-4bc4634b26f70b64aa30.json",
+					"name" : "vulkan-stub",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Projects/Bitbucket/vulkan-sdk/samples/basic_compute/app/.cxx/Debug/1zc36145/arm64-v8a",
+		"source" : "D:/Projects/Bitbucket/vulkan-sdk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

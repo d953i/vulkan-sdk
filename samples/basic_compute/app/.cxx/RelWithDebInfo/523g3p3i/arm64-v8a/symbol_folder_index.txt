@@ -1,0 +1,1 @@
+D:\Projects\Bitbucket\vulkan-sdk\samples\basic_compute\app\build\intermediates\cxx\RelWithDebInfo\523g3p3i\obj\arm64-v8a

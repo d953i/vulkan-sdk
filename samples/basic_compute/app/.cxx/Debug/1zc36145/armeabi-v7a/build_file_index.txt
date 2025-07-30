@@ -1,0 +1,16 @@
+D:\Projects\Bitbucket\vulkan-sdk\CMakeLists.txt
+D:\Projects\Bitbucket\vulkan-sdk\framework\CMakeLists.txt
+D:\Projects\Bitbucket\vulkan-sdk\platform\android\CMakeLists.txt
+D:\Projects\Bitbucket\vulkan-sdk\platform\CMakeLists.txt
+D:\Projects\Bitbucket\vulkan-sdk\Sample.cmake
+D:\Projects\Bitbucket\vulkan-sdk\samples\astc\CMakeLists.txt
+D:\Projects\Bitbucket\vulkan-sdk\samples\basic_compute\CMakeLists.txt
+D:\Projects\Bitbucket\vulkan-sdk\samples\CMakeLists.txt
+D:\Projects\Bitbucket\vulkan-sdk\samples\hellotriangle\CMakeLists.txt
+D:\Projects\Bitbucket\vulkan-sdk\samples\mipmapping\CMakeLists.txt
+D:\Projects\Bitbucket\vulkan-sdk\samples\multipass\CMakeLists.txt
+D:\Projects\Bitbucket\vulkan-sdk\samples\multisampling\CMakeLists.txt
+D:\Projects\Bitbucket\vulkan-sdk\samples\multithreading\CMakeLists.txt
+D:\Projects\Bitbucket\vulkan-sdk\samples\rotating_texture\CMakeLists.txt
+D:\Projects\Bitbucket\vulkan-sdk\samples\spinning_cube\CMakeLists.txt
+D:\Projects\Bitbucket\vulkan-sdk\stub\CMakeLists.txt

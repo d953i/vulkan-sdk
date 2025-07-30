@@ -1,0 +1,137 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "stub/libvulkan-stub.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_include_directories",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"stub/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions  -Wall -Wextra -Wno-missing-field-initializers -Wno-unused-function -Wno-unused-variable -DVK_PROTOTYPES=1 -pthread -O2 -g -DNDEBUG -fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/Bitbucket/vulkan-sdk/stub"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/Bitbucket/vulkan-sdk/stub/../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects/Bitbucket/vulkan-sdk/platform/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects/Bitbucket/vulkan-sdk/platform"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects/Bitbucket/vulkan-sdk/framework/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects/Bitbucket/vulkan-sdk/framework"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects/Bitbucket/vulkan-sdk/framework/glm"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "C:/AndroidSDK/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "vulkan-stub::@31bfb7fa4c447f20d444",
+	"name" : "vulkan-stub",
+	"nameOnDisk" : "libvulkan-stub.a",
+	"paths" : 
+	{
+		"build" : "stub",
+		"source" : "stub"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "stub/libvulkan-stub.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -225,8 +225,7 @@ void android_main(android_app *state)
 		int ident;
 		int events;
 
-		while ((ident = ALooper_pollAll(engine.pVulkanApp && engine.active ? 0 : -1, nullptr, &events,
-		                                (void **)&source)) >= 0)
+		while ((ident = ALooper_pollOnce(engine.pVulkanApp && engine.active ? 0 : -1, nullptr, &events,(void **)&source)) >= 0)
 		{
 			if (source)
 				source->process(state, source);

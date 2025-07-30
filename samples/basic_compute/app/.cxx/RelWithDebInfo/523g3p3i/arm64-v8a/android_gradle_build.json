@@ -1,0 +1,97 @@
+{
+  "buildFiles": [
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\CMakeLists.txt",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\framework\\CMakeLists.txt",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\platform\\android\\CMakeLists.txt",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\platform\\CMakeLists.txt",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\Sample.cmake",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\astc\\CMakeLists.txt",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\basic_compute\\CMakeLists.txt",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\CMakeLists.txt",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\hellotriangle\\CMakeLists.txt",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\mipmapping\\CMakeLists.txt",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\multipass\\CMakeLists.txt",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\multisampling\\CMakeLists.txt",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\multithreading\\CMakeLists.txt",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\rotating_texture\\CMakeLists.txt",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\spinning_cube\\CMakeLists.txt",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\stub\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\AndroidSDK\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\basic_compute\\app\\.cxx\\RelWithDebInfo\\523g3p3i\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\AndroidSDK\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\basic_compute\\app\\.cxx\\RelWithDebInfo\\523g3p3i\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "basic_compute::@fb055d3086e43f899487": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "basic_compute",
+      "output": "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\basic_compute\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\523g3p3i\\obj\\arm64-v8a\\libnative.so",
+      "runtimeFiles": []
+    },
+    "framework::@217a96c3a62328a73ef4": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "framework",
+      "output": "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\basic_compute\\app\\.cxx\\RelWithDebInfo\\523g3p3i\\arm64-v8a\\framework\\libframework.a"
+    },
+    "platform::@06522778d3acbe1b37c9": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "platform",
+      "output": "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\basic_compute\\app\\.cxx\\RelWithDebInfo\\523g3p3i\\arm64-v8a\\platform\\libplatform.a"
+    },
+    "platform-android::@9a0b80f63a94e9055ebd": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "platform-android",
+      "output": "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\basic_compute\\app\\.cxx\\RelWithDebInfo\\523g3p3i\\arm64-v8a\\platform\\android\\libplatform-android.a"
+    },
+    "platform-asset-manager::@06522778d3acbe1b37c9": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "platform-asset-manager",
+      "output": "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\basic_compute\\app\\.cxx\\RelWithDebInfo\\523g3p3i\\arm64-v8a\\platform\\libplatform-asset-manager.a"
+    },
+    "platform-wsi::@06522778d3acbe1b37c9": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "platform-wsi",
+      "output": "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\basic_compute\\app\\.cxx\\RelWithDebInfo\\523g3p3i\\arm64-v8a\\platform\\libplatform-wsi.a"
+    },
+    "vulkan-sdk::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "vulkan-sdk",
+      "output": "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\basic_compute\\app\\.cxx\\RelWithDebInfo\\523g3p3i\\arm64-v8a\\libvulkan-sdk.a"
+    },
+    "vulkan-stub::@31bfb7fa4c447f20d444": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "vulkan-stub",
+      "output": "D:\\Projects\\Bitbucket\\vulkan-sdk\\samples\\basic_compute\\app\\.cxx\\RelWithDebInfo\\523g3p3i\\arm64-v8a\\stub\\libvulkan-stub.a"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\AndroidSDK\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\AndroidSDK\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

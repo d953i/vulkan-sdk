@@ -1,0 +1,148 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "platform/libplatform-asset-manager.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"platform/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions  -Wall -Wextra -Wno-missing-field-initializers -Wno-unused-function -Wno-unused-variable -DVK_PROTOTYPES=1 -pthread -fno-limit-debug-info  -fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/Bitbucket/vulkan-sdk/framework/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/Bitbucket/vulkan-sdk/framework"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/Bitbucket/vulkan-sdk/framework/glm"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/Bitbucket/vulkan-sdk/stub"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/Bitbucket/vulkan-sdk/stub/../include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/Bitbucket/vulkan-sdk/platform/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/Bitbucket/vulkan-sdk/platform"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "C:/AndroidSDK/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "platform-android::@9a0b80f63a94e9055ebd"
+		}
+	],
+	"id" : "platform-asset-manager::@06522778d3acbe1b37c9",
+	"name" : "platform-asset-manager",
+	"nameOnDisk" : "libplatform-asset-manager.a",
+	"paths" : 
+	{
+		"build" : "platform",
+		"source" : "platform"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "platform/asset_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "platform/asset_manager.hpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
